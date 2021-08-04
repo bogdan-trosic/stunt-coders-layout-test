@@ -1,0 +1,22 @@
+/* RESET */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, h1, h2, p, img {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+
+    background-color: var(--background-base);
+}
+
+img {
+    height: auto;
+    display: block;
+}
