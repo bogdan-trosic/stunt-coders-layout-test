@@ -45,6 +45,18 @@ img {
 
 /* LAYOUT */
 
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .layout-wrapper {
     margin: 0 15px 30px 15px;
+}
+
+@media screen and (min-width: 1400px) {
+    .layout-wrapper {
+        max-width: 1400px;
+    }
 }
