@@ -146,3 +146,66 @@ img {
         margin-bottom: 240px;
     }
 }
+
+/* MAIN */
+
+.main {
+    margin: 48px 12px 0 12px;
+    position: relative;
+}
+
+.main__item {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.main__number-card {
+    display: flex;
+    background-color: var(--accent);
+    height: calc(32px + 50vw);
+}
+
+.main__number-card .main__number {
+    color: var(--foreground-alt);
+    font-family: var(--serif-font);
+    font-size: calc(24px + 26vw);
+    text-align: center;
+
+    margin: auto;
+}
+
+.main__text-card {
+    text-align: center;
+    padding: 0 2.2vw 0 2.2vw;
+}
+
+.main__text-header {
+    font-size: calc(14px + 2.4vw);
+    margin-bottom: 6px;
+}
+
+.main__paragraph {
+    font-size: calc(6px + 2.7vw);
+}
+
+.main__image-card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(32px + 40vw);
+}
+
+.image-one {
+    background-image: url("img/step-1.jpg");
+}
+
+.image-two {
+    background-image: url("img/step-2.jpg");
+}
+
+.image-three {
+    background-image: url("img/step-3-4.jpg");
+}
+
