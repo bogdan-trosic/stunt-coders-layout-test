@@ -73,7 +73,7 @@ img {
     height: calc(32px + 66vw);
     position: relative;
     z-index: 10;
-    margin-bottom: 24px;
+    margin-bottom: 42px;
 
     display: flex;
     flex-direction: column;
