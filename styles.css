@@ -61,6 +61,7 @@ img {
 @media screen and (min-width: 1400px) {
     .layout-wrapper {
         max-width: 1400px;
+        margin: 0 30px 30px 30px;
     }
 }
 
