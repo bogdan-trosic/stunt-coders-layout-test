@@ -480,3 +480,62 @@ img {
         font-size: 116px;
     }
 }
+
+@media screen and (min-width: 1020px) {
+    .footer {
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+
+        margin-top: 82px;
+    }
+
+    .footer__text-header {
+        font-size: 72px;
+        width: 70%;
+        margin-bottom: 24px;
+        padding-top: 48px;
+    }
+
+    .footer__hero-header {
+        position: absolute;
+        bottom: 24px;
+    }
+
+    .footer__paragraph {
+        word-wrap: break-word;
+        hyphens: auto;
+    }
+
+    .footer__text-segment, .footer__image {
+        height: 960px;
+    }
+
+    .footer__text-segment {
+        width: 44%;
+        margin-left: 64px;
+        margin-right: 28px;
+    }
+
+    .footer__image {
+        width: 52%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .footer__text-header {
+        width: 60%;
+    }
+}
+
+/* HELPER CLASSES */
+
+.text-removed {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .text-alternate-color {
+        color: var(--foreground-alt);
+    }
+}
