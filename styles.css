@@ -45,9 +45,12 @@ img {
 
 /* LAYOUT */
 
-.body {
+.body, .layout-wrapper {
     display: flex;
     flex-direction: column;
+}
+
+.body {
     align-items: center;
 }
 
