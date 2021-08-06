@@ -209,3 +209,111 @@ img {
     background-image: url("img/step-3-4.jpg");
 }
 
+@media screen and (min-width: 400px) {
+    .main__text-header {
+        margin-bottom: 12px;
+    }
+
+    .main__item {
+        width: 48%;
+        margin-bottom: 32px;
+    }
+
+    .main__item:nth-child(1) {
+        height: calc(32px + 52vw);
+        float: left;
+    }
+
+    .main__item:nth-child(2) {
+        float: right;
+    }
+
+    .main__item:nth-child(3) {
+        float: left;
+    }
+
+    .main__item:nth-child(4) {
+        height: calc(32px + 76vw);
+        float: right;
+    }
+
+    .main__item:nth-child(5) {
+        float: left;
+    }
+
+    .main__item:nth-child(6) {
+        height: calc(32px + 54vw);
+        float: right;
+    }
+
+    .main__item:nth-child(7) {
+        height: calc(32px + 60vw);
+        float: left;
+    }
+
+    .main__item:nth-child(8) {
+        float: right;
+    }
+
+    .main__item:nth-child(9) {
+        float: left;
+    }
+
+    .main__item:nth-child(10) {
+        height: calc(32px + 58vw);
+        float: right;
+    }
+
+    .main__item:nth-child(11) {
+        float: left;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .main {
+        max-width: 770px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main__number-card .main__number {
+        font-size: 242px;
+    }
+
+    .main__text-header {
+        font-size: 34px;
+        margin-bottom: 18px;
+    }
+
+    .main__paragraph {
+        font-size: 28px;
+    }
+
+    .main__image-card {
+        height: 370px;
+    }
+
+    .main__item {
+        width: 360px;
+    }
+    
+    .main__item:nth-child(1) {
+        height: 470px;
+    }
+
+    .main__item:nth-child(4) {
+        height: 620px;
+    }
+
+    .main__item:nth-child(6) {
+        height: 466px;
+    }
+
+    .main__item:nth-child(7) {
+        height: 536px;
+    }
+    
+    .main__item:nth-child(10) {
+        height: 520px;
+    }
+}
