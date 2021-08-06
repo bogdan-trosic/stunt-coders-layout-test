@@ -378,6 +378,7 @@ img {
     .main__item:nth-child(5) {
         order: 6;
         height: 620px;
+        padding: 0 32px 0 32px;
     }
 
     .main__item:nth-child(6) {
